@@ -2,7 +2,7 @@
   "name": "toutsuite",
   "version": "0.0.1",
   "description": "Runs a block of code with synchronously executing promises",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "doc": "esdoc -c ./esdoc.json",
     "compile": "babel -d lib/ src/",
@@ -22,9 +22,9 @@
     "url": "https://github.com/paulcbetts/toutsuite/issues"
   },
   "homepage": "https://github.com/paulcbetts/toutsuite#readme",
-  "main": "lib/index.js",
   "dependencies": {
-    "debug": "^2.5.1"
+    "debug": "^2.5.1",
+    "synchronous-promise": "^1.0.7"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
