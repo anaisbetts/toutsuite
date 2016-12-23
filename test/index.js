@@ -22,4 +22,13 @@ describe('the toutSuite function', function () {
     block();
     expect(canary).to.equal(null);
   });
+
+  it('should resolve promises', function() {
+    let block = () => {
+      return Promise.resolve(10)
+        .then((x) => x * 5);
+    };
+
+    expect(toutSuite(block)).to.equal(50);
+  });
 });
