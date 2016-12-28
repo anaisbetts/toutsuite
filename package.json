@@ -1,6 +1,6 @@
 {
   "name": "toutsuite",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Runs a block of code with synchronously executing promises",
   "main": "lib/index.js",
   "scripts": {
